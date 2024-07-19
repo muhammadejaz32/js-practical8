@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let year = Number(prompt("enter year"))
+        let month = Number(prompt("enter month"))
+        let day = Number(prompt("enter day"))
+        let hour = Number(prompt("enter hour"))
+        let minutes = Number(prompt("enter minutes"))
+        let date = new Date(year,month-1,day,hour,minutes);
+        alert(date);
+    </script>
+</body>
+</html>

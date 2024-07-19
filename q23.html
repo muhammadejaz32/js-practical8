@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let enddate = new Date(prompt("enter end date and time "))
+        let interval =1000;
+        let remaiining = enddate=new Date();
+        let days = Math.floor(remaiining/1000*60*60*24);
+        let hours = Math.floor(remaiining/1000*60*60);
+        let minutes = Math.floor(remaiining/1000*60);
+        let seconds = Math.floor(remaiining%(1000*60))/1000;
+        alert(days.hours,minutes,seconds);
+    </script>
+</body>
+</html>
